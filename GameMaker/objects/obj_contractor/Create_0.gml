@@ -38,18 +38,19 @@ if tries == max_tries {
 }
 else {
 	// Open plot found
+	
+	// Create path to plot using best guess at current state, max four tries
+	path = path_add()
+	mp_potential_path(path, try_x, try_y, 1, 4, true)
+	
+	// Start down path
+	path_start(path, walk_speed, path_action_stop, false)
+	
 	// Create marker, scale to size of blueprint
 	Marker = instance_create_layer(try_x, try_y, "Instances", obj_marker, {
 		image_xscale : blueprint.width / GRID_SIZE,
 		image_yscale : blueprint.height / GRID_SIZE,
 	})
-	
-	// Create path to plot using best guess at current state, max four tries
-	path = path_add()
-	mp_potential_path(path, Marker.x, Marker.y, 1, 4, true)
-	
-	// Start down path
-	path_start(path, walk_speed, path_action_stop, false)
 }
 
 #endregion
