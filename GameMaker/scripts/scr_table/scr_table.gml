@@ -14,14 +14,14 @@ function get_entrance() {
 		case 1:
 			return new stc_entrance(border + TABLE_WIDTH/2, border)
 		case 2:
-			return new stc_entrance(border + TABLE_WIDTH, border)
+			return new stc_entrance(border + TABLE_WIDTH - GRID_SIZE, border)
 		case 3:
 			// Bottom left
-			return new stc_entrance(border, border + TABLE_HEIGHT)
+			return new stc_entrance(border, border + TABLE_HEIGHT - GRID_SIZE)
 		case 4:
-			return new stc_entrance(border + TABLE_WIDTH/2, border + TABLE_HEIGHT)
+			return new stc_entrance(border + TABLE_WIDTH/2, border + TABLE_HEIGHT - GRID_SIZE)
 		case 5:
-			return new stc_entrance(border + TABLE_WIDTH, border + TABLE_HEIGHT)
+			return new stc_entrance(border + TABLE_WIDTH - GRID_SIZE, border + TABLE_HEIGHT - GRID_SIZE)
 			
 	}
 }
