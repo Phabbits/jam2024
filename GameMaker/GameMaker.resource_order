@@ -38,6 +38,7 @@
     {"name":"obj_cushion_triangle","order":5,"path":"objects/obj_cushion_triangle/obj_cushion_triangle.yy",},
     {"name":"scr_blueprints","order":1,"path":"scripts/scr_blueprints/scr_blueprints.yy",},
     {"name":"obj_cushion","order":4,"path":"objects/obj_cushion/obj_cushion.yy",},
+    {"name":"snd_ball_clack","order":1,"path":"sounds/snd_ball_clack/snd_ball_clack.yy",},
     {"name":"scr_storylines","order":3,"path":"scripts/scr_storylines/scr_storylines.yy",},
     {"name":"par_static","order":9,"path":"objects/par_static/par_static.yy",},
     {"name":"spr_miniature","order":6,"path":"sprites/spr_miniature/spr_miniature.yy",},
