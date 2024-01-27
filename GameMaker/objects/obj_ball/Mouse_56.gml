@@ -1,9 +1,15 @@
-/// @description Hit
-// Fire ball based on dragged mouse
-if selected {
-	var impact = point_distance(x, y, mouse_x, mouse_y)
-	var dir = point_direction(x, y, mouse_x, mouse_y)
-	direction = dir + 180
-	//speed = impact / 16
-	//selected = false
+/// @description Shoot ball
+
+if selected{
+	physics_apply_impulse(contact_x, contact_y, (contact_x - mouse_x)*hit_scalar, (contact_y - mouse_y)*hit_scalar)
+	contact_x = -1
+	contact_y = -1
+	selected = false
 }
+
+
+
+
+
+
+
