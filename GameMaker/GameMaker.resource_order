@@ -21,6 +21,7 @@
   "ResourceOrderSettings": [
     {"name":"obj_ball","order":3,"path":"objects/obj_ball/obj_ball.yy",},
     {"name":"spr_triangle","order":5,"path":"sprites/spr_triangle/spr_triangle.yy",},
+    {"name":"spr_tiles","order":8,"path":"sprites/spr_tiles/spr_tiles.yy",},
     {"name":"obj_miniature","order":1,"path":"objects/obj_miniature/obj_miniature.yy",},
     {"name":"spr_cushion","order":3,"path":"sprites/spr_cushion/spr_cushion.yy",},
     {"name":"obj_pocket","order":7,"path":"objects/obj_pocket/obj_pocket.yy",},
