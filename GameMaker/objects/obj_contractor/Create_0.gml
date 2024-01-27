@@ -1,4 +1,6 @@
 /// @description Pick a plot
+event_inherited()
+
 // Set by optional struct
 //blueprint = pointer_null
 
@@ -7,9 +9,7 @@ Marker = noone
 // No path returns as -1
 path = -1
 
-// Speeds
-walk_speed = 1
-run_speed = 2
+
 
 #region Pick open plot
 
