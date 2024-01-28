@@ -10,3 +10,6 @@ if place_meeting(x, y, obj_ball) {
 	with obj_conductor event_user(0)
 	instance_destroy()
 }
+
+//Rotate
+image_angle = point_direction(xprevious, yprevious, x, y)
