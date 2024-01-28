@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "spr_mower",
   "bbox_bottom": 31,
-  "bbox_left": 0,
-  "bbox_right": 31,
+  "bbox_left": 6,
+  "bbox_right": 30,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -14,6 +14,7 @@
   "For3D": false,
   "frames": [
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e34f86d2-05de-4116-ae2f-5128aff63f7b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"628370b3-96c2-455c-8382-79f11fd0779d",},
   ],
   "gridX": 0,
   "gridY": 0,
@@ -43,7 +44,7 @@
     "events": {"resourceType":"KeyframeStore<MessageEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "eventStubScript": null,
     "eventToFunction": {},
-    "length": 1.0,
+    "length": 2.0,
     "lockOrigin": false,
     "moments": {"resourceType":"KeyframeStore<MomentsEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "playback": 1,
@@ -55,6 +56,7 @@
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e34f86d2-05de-4116-ae2f-5128aff63f7b","path":"sprites/spr_mower/spr_mower.yy",},},},"Disabled":false,"id":"3131d476-a25b-4f4e-a424-6f2eca6a27b1","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"628370b3-96c2-455c-8382-79f11fd0779d","path":"sprites/spr_mower/spr_mower.yy",},},},"Disabled":false,"id":"3e271efd-9554-4642-8c7c-e20b1d565e76","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
