@@ -27,7 +27,12 @@
   "physicsRestitution": 0.1,
   "physicsSensor": false,
   "physicsShape": 1,
-  "physicsShapePoints": [],
+  "physicsShapePoints": [
+    {"x":2.0,"y":10.0,},
+    {"x":35.0,"y":10.0,},
+    {"x":35.0,"y":26.0,},
+    {"x":2.0,"y":26.0,},
+  ],
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
