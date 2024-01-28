@@ -14,7 +14,12 @@ if place_meeting(x, y, obj_ball) {
 	// Add husk
 	with instance_create_layer(x, y, "Instances", obj_husk){
 		sprite_index = other.sprite_index
-		image_index = image_number - 1
+		if sprite_index == spr_mower {
+			image_index = image_number - 1
+		}
+		else {
+			image_index = other.image_index
+		}
 	}
 	
 	instance_destroy()

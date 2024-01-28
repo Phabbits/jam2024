@@ -10,6 +10,7 @@ if place_meeting(x, y, obj_ball) {
 	// Storyline interrupt
 	with obj_conductor event_user(0)
 	obj_game_control.people_squashed += 1
+	
 	instance_destroy()
 }
 

@@ -42,6 +42,7 @@
     {"name":"obj_structure","order":2,"path":"objects/obj_structure/obj_structure.yy",},
     {"name":"Room1","order":1,"path":"rooms/Room1/Room1.yy",},
     {"name":"obj_vehicle","order":10,"path":"objects/obj_vehicle/obj_vehicle.yy",},
+    {"name":"obj_vehicle_visitor","order":11,"path":"objects/obj_vehicle_visitor/obj_vehicle_visitor.yy",},
     {"name":"spr_assets","order":1,"path":"sprites/spr_assets/spr_assets.yy",},
     {"name":"scr_macros","order":2,"path":"scripts/scr_macros/scr_macros.yy",},
     {"name":"snd_siren","order":3,"path":"sounds/snd_siren/snd_siren.yy",},
