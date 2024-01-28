@@ -36,6 +36,7 @@
     "IDEVersion": "2023.11.1.129",
   },
   "resources": [
+    {"id":{"name":"scr_particles","path":"scripts/scr_particles/scr_particles.yy",},},
     {"id":{"name":"obj_ball","path":"objects/obj_ball/obj_ball.yy",},},
     {"id":{"name":"spr_triangle","path":"sprites/spr_triangle/spr_triangle.yy",},},
     {"id":{"name":"spr_tiles","path":"sprites/spr_tiles/spr_tiles.yy",},},
