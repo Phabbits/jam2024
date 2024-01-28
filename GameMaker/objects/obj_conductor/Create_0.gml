@@ -1,5 +1,8 @@
 /// @description Orchestrate miniatures
 
+// Configure potential functions
+mp_potential_settings(25, 10, 3, true)
+
 // Interrupt
 interrupt_counter = 0
 
@@ -9,7 +12,8 @@ blueprint_house = new stc_blueprint(64, 64, 5, obj_house)
 // Create base storyline
 // Add events, timers are in seconds
 storyline = [
-		new stc_event(0.1, new stc_activity_mow()), 
+		new stc_event(0.1, new stc_activity_mow()),
+		new stc_event(1.1, new stc_activity_attack()),
 		new stc_event(1.1, new stc_activity_build(blueprint_house)),
 		]
 
