@@ -74,6 +74,7 @@
     {"id":{"name":"obj_house_2","path":"objects/obj_house_2/obj_house_2.yy",},},
     {"id":{"name":"spr_house_4","path":"sprites/spr_house_4/spr_house_4.yy",},},
     {"id":{"name":"obj_contractor","path":"objects/obj_contractor/obj_contractor.yy",},},
+    {"id":{"name":"spr_title","path":"sprites/spr_title/spr_title.yy",},},
     {"id":{"name":"spr_house_5","path":"sprites/spr_house_5/spr_house_5.yy",},},
     {"id":{"name":"fnt_scores","path":"fonts/fnt_scores/fnt_scores.yy",},},
     {"id":{"name":"par_dynamic","path":"objects/par_dynamic/par_dynamic.yy",},},
