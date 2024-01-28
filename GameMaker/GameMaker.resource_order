@@ -36,6 +36,7 @@
     {"name":"spr_responder","order":11,"path":"sprites/spr_responder/spr_responder.yy",},
     {"name":"obj_hole","order":2,"path":"objects/obj_hole/obj_hole.yy",},
     {"name":"obj_mower","order":3,"path":"objects/obj_mower/obj_mower.yy",},
+    {"name":"obj_structure","order":2,"path":"objects/obj_structure/obj_structure.yy",},
     {"name":"Room1","order":1,"path":"rooms/Room1/Room1.yy",},
     {"name":"spr_assets","order":1,"path":"sprites/spr_assets/spr_assets.yy",},
     {"name":"scr_macros","order":2,"path":"scripts/scr_macros/scr_macros.yy",},

@@ -6,15 +6,19 @@ mp_potential_settings(25, 10, 3, true)
 // Interrupt
 interrupt_counter = 0
 
-// Blueprints
+#region Blueprints
 blueprint_house = new stc_blueprint(64, 64, 5, obj_house)
+#endregion
 
-// Create base storyline
+#region Storyline
+// Storyline flags indicate when story can progress
+first_house_built = false
+
 // Add events, timers are in seconds
 storyline = [
-		new stc_event(0.1, new stc_activity_visit()),
-		new stc_event(1, new stc_activity_attack()),
-		new stc_event(15, new stc_activity_build(blueprint_house)),
+		new stc_event(0.1, new stc_activity_build(blueprint_house)),
+		new stc_event(1, new stc_activity_mow(), function(){return first_house_built}),
+		new stc_event(15, new stc_activity_visit()),
 		new stc_event(16, new stc_activity_attack()),
 		new stc_event(15, new stc_activity_build(blueprint_house)),
 		new stc_event(10, new stc_activity_mow()),
@@ -23,3 +27,4 @@ storyline = [
 // Start the story
 var next_event = storyline[0]
 alarm[0] = game_get_speed(gamespeed_fps)*next_event.timer
+#endregion
