@@ -4,6 +4,7 @@
   "name": "obj_miniature",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -28,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_ball",
-    "path": "sprites/spr_ball/spr_ball.yy",
+    "name": "spr_miniature",
+    "path": "sprites/spr_miniature/spr_miniature.yy",
   },
   "spriteMaskId": null,
   "visible": true,

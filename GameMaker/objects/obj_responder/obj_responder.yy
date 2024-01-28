@@ -1,12 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_contractor",
+  "name": "obj_responder",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":8,"eventType":7,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -34,9 +32,12 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_miniature",
-    "path": "sprites/spr_miniature/spr_miniature.yy",
+    "name": "spr_responder",
+    "path": "sprites/spr_responder/spr_responder.yy",
   },
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_responder",
+    "path": "sprites/spr_responder/spr_responder.yy",
+  },
   "visible": true,
 }

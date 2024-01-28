@@ -16,5 +16,3 @@ if (x - GRID_SIZE/2) mod GRID_SIZE == 0 and (y - GRID_SIZE/2) mod GRID_SIZE == 0
 	}
 }
 
-x += lengthdir_x(speed, direction)
-y += lengthdir_y(speed, direction)
