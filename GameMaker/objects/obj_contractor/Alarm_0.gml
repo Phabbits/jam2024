@@ -1,4 +1,5 @@
 /// @description Start from pause
+show_speech_happy = false
 #region Pick open plot
 
 // Try an x and y position within the table aligned to the center of the grid

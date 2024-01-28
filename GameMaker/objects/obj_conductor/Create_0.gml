@@ -13,6 +13,7 @@ blueprint_house = new stc_blueprint(64, 64, 5, obj_house)
 #region Storyline
 // Storyline flags indicate when story can progress
 first_house_built = false
+show_speech_first_house = true
 first_death_after_house = false
 responded_times = 0
 
