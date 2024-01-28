@@ -34,7 +34,7 @@
   ],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": false,
+  "solid": true,
   "spriteId": {
     "name": "spr_house_7",
     "path": "sprites/spr_house_7/spr_house_7.yy",

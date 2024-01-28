@@ -17,14 +17,14 @@ else if not first_death_after_house {
 }
 else {
 	// Respond progressively
-	array_insert(storyline, 0, new stc_event(0.1, new stc_activity_respond()))
+	array_insert(storyline, 0, new stc_event(5, new stc_activity_respond()))
 	
 	if responded_times > 4 {
-		array_insert(storyline, 0, new stc_event(0.1, new stc_activity_attack(responded_times div 2)))
-		array_insert(storyline, 0, new stc_event(0.1, new stc_activity_tank()))
+		array_insert(storyline, 0, new stc_event(2, new stc_activity_attack(responded_times div 2)))
+		array_insert(storyline, 0, new stc_event(6, new stc_activity_tank()))
 	}
 	else if responded_times > 2 {
-		array_insert(storyline, 0, new stc_event(0.1, new stc_activity_attack()))
+		array_insert(storyline, 0, new stc_event(5, new stc_activity_attack()))
 	}
 	responded_times ++
 }
