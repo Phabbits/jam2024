@@ -4,8 +4,12 @@ selected_ball = noone
 current_type = -1 //Type of balls the player is trying to get in: SOLIDS, STRIPES, or EIGHT
 setup_particles()
 random_set_seed(1)
-balls_pocketed = 0 //Number of balls pocketed
+type_text = -1
 
+//Stats
+balls_pocketed = 0	//Number of balls pocketed
+num_hits = 0		//Number of times the cue ball is hit
+people_squashed = 0	//Number of people squashed
 
 
 

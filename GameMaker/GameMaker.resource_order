@@ -50,6 +50,7 @@
     {"name":"par_static","order":9,"path":"objects/par_static/par_static.yy",},
     {"name":"spr_splat","order":10,"path":"sprites/spr_splat/spr_splat.yy",},
     {"name":"spr_miniature","order":6,"path":"sprites/spr_miniature/spr_miniature.yy",},
+    {"name":"fnt_normal","order":1,"path":"fonts/fnt_normal/fnt_normal.yy",},
     {"name":"obj_game_control","order":6,"path":"objects/obj_game_control/obj_game_control.yy",},
     {"name":"spr_mower","order":7,"path":"sprites/spr_mower/spr_mower.yy",},
     {"name":"obj_house","order":1,"path":"objects/obj_house/obj_house.yy",},
