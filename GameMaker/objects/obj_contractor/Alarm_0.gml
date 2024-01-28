@@ -1,4 +1,44 @@
-/// @description Finish construction
-instance_create_layer(Marker.x, Marker.y, "Instances", blueprint.structure)
-instance_destroy(Marker)
-instance_destroy(self)
+/// @description Start from pause
+#region Pick open plot
+
+// Try an x and y position within the table aligned to the center of the grid
+var try_x = TABLE_BORDER + irandom((TABLE_WIDTH - TABLE_BORDER*2) / GRID_SIZE)*GRID_SIZE + GRID_SIZE/2
+var try_y = TABLE_BORDER + irandom((TABLE_HEIGHT - TABLE_BORDER*2) / GRID_SIZE)*GRID_SIZE + GRID_SIZE/2
+// Count tries
+var max_tries = 10
+var tries = 0
+// Half blueprint width and height for centering
+var hw = blueprint.width / 2
+var hh = blueprint.height / 2
+
+// Iterate through random positions until place for plot is found or max tries
+while tries < max_tries
+		and collision_rectangle(try_x - hw, try_y - hh, try_x + hw, try_y + hh, all, false, false) {
+	// Try and x and y position within the table aligned to the center of the grid
+	try_x = TABLE_BORDER + irandom((TABLE_WIDTH - TABLE_BORDER*2) / GRID_SIZE)*GRID_SIZE + GRID_SIZE/2
+	try_y = TABLE_BORDER + irandom((TABLE_HEIGHT - TABLE_BORDER*2) / GRID_SIZE)*GRID_SIZE + GRID_SIZE/2
+	// Increment tries
+	tries ++
+}
+
+if tries == max_tries {
+	// No open plot was found!
+}
+else {
+	// Open plot found
+	
+	// Create path to plot using best guess at current state, max four tries
+	path = path_add()
+	mp_potential_path(path, try_x, try_y, 1, 4, true)
+	
+	// Start down path
+	path_start(path, walk_speed, path_action_stop, false)
+	
+	// Create marker, scale to size of blueprint
+	Marker = instance_create_layer(try_x, try_y, "Instances", obj_marker, {
+		image_xscale : blueprint.width / GRID_SIZE,
+		image_yscale : blueprint.height / GRID_SIZE,
+	})
+}
+
+#endregion

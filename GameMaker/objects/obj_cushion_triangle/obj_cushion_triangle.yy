@@ -31,7 +31,7 @@
   ],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": false,
+  "solid": true,
   "spriteId": {
     "name": "spr_triangle",
     "path": "sprites/spr_triangle/spr_triangle.yy",

@@ -2,7 +2,9 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_house",
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -10,8 +12,8 @@
     "path": "folders/Objects/Structures.yy",
   },
   "parentObjectId": {
-    "name": "par_static",
-    "path": "objects/par_static/par_static.yy",
+    "name": "obj_structure",
+    "path": "objects/obj_structure/obj_structure.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -32,7 +34,7 @@
   ],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": false,
+  "solid": true,
   "spriteId": {
     "name": "spr_house_8",
     "path": "sprites/spr_house_8/spr_house_8.yy",

@@ -32,7 +32,7 @@
   ],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": false,
+  "solid": true,
   "spriteId": {
     "name": "spr_cushion",
     "path": "sprites/spr_cushion/spr_cushion.yy",

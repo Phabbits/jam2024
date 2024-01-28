@@ -10,3 +10,11 @@ image_speed = 0
 
 // Audio
 audio_play_sound(snd_engine_start, 10, false, 0.5)
+
+//Make U-Turn
+u_turn = false //Whether the mower is in the process of turning around or not
+turn_right = true //If the next turn on the U-turn will be to the right or left (for snaking)
+
+//Snap to the nearest grid
+x = (round(x/GRID_SIZE + .5) * GRID_SIZE) - GRID_SIZE div 2
+y = (round(y/GRID_SIZE + .5) * GRID_SIZE) - GRID_SIZE div 2

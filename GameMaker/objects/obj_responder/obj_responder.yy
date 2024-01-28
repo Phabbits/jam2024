@@ -14,8 +14,8 @@
     "path": "folders/Objects/Miniatures.yy",
   },
   "parentObjectId": {
-    "name": "obj_miniature",
-    "path": "objects/obj_miniature/obj_miniature.yy",
+    "name": "obj_vehicle",
+    "path": "objects/obj_vehicle/obj_vehicle.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -31,8 +31,11 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": false,
-  "spriteId": null,
+  "solid": true,
+  "spriteId": {
+    "name": "spr_ambulance",
+    "path": "sprites/spr_ambulance/spr_ambulance.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

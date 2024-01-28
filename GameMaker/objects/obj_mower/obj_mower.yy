@@ -5,7 +5,6 @@
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -14,8 +13,8 @@
     "path": "folders/Objects/Miniatures.yy",
   },
   "parentObjectId": {
-    "name": "obj_miniature",
-    "path": "objects/obj_miniature/obj_miniature.yy",
+    "name": "obj_vehicle",
+    "path": "objects/obj_vehicle/obj_vehicle.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -31,7 +30,7 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": false,
+  "solid": true,
   "spriteId": {
     "name": "spr_mower",
     "path": "sprites/spr_mower/spr_mower.yy",
