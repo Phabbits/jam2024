@@ -1,7 +1,7 @@
 /// @description Respond
 if instance_exists(Splat) {
 	if distance_to_object(Splat) > Splat.sprite_width {
-		mp_potential_step(Splat.x, Splat.y, run_speed, true)
+		move_avoiding(Splat.x, Splat.y, run_speed)
 	}
 	else if not place_meeting(x, y, Splat) {
 		move_towards_point(Splat.x, Splat.y, run_speed)
@@ -14,7 +14,7 @@ if instance_exists(Splat) {
 else {
 	// Return
 	if distance_to_point(xstart, ystart) > 0 {
-		mp_potential_step(xstart, ystart, run_speed, true)
+		move_avoiding(xstart, ystart, run_speed)
 	}
 	else {
 		instance_destroy()

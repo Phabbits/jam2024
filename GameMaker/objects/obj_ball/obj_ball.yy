@@ -37,7 +37,7 @@
   ],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": false,
+  "solid": true,
   "spriteId": {
     "name": "spr_ball",
     "path": "sprites/spr_ball/spr_ball.yy",

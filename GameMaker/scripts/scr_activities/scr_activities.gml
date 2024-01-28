@@ -41,3 +41,10 @@ function stc_activity_respond() : stc_activity() constructor {
 		instance_create_layer(entrance.x, entrance.y, "Instances", obj_responder)
 	}
 }
+
+function stc_activity_attack() : stc_activity() constructor {
+	static start = function() {
+		var entrance = get_entrance()
+		instance_create_layer(entrance.x, entrance.y, "Instances", obj_soldier)
+	}
+}
