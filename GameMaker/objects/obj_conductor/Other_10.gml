@@ -19,6 +19,7 @@ else {
 	
 	if responded_times > 4 {
 		array_insert(storyline, 0, new stc_event(0.1, new stc_activity_attack(responded_times div 2)))
+		array_insert(storyline, 0, new stc_event(0.1, new stc_activity_tank()))
 	}
 	else if responded_times > 2 {
 		array_insert(storyline, 0, new stc_event(0.1, new stc_activity_attack()))

@@ -7,7 +7,18 @@ mp_potential_settings(25, 10, 3, true)
 interrupt_counter = 0
 
 #region Blueprints
-blueprint_house = new stc_blueprint(64, 64, 5, obj_house)
+blueprint_houses = [new stc_blueprint(96, 96, 5, obj_house),
+		new stc_blueprint(72, 72, 5, obj_house_2),
+		new stc_blueprint(72, 72, 5, obj_house_3),
+		new stc_blueprint(72, 72, 5, obj_house_4),
+		new stc_blueprint(72, 72, 5, obj_house_5),
+		new stc_blueprint(72, 72, 5, obj_house_6),
+		new stc_blueprint(72, 72, 5, obj_house_7),
+		new stc_blueprint(72, 72, 5, obj_house_8),
+		new stc_blueprint(72, 72, 5, obj_house_9),
+		new stc_blueprint(72, 72, 5, obj_house_10),
+		new stc_blueprint(72, 72, 5, obj_house_11),
+		]
 #endregion
 
 #region Storyline
@@ -18,10 +29,10 @@ responded_times = 0
 
 // Add events, timers are in seconds
 storyline = [
-		new stc_event(0.1, new stc_activity_build(blueprint_house)),
+		new stc_event(0.1, new stc_activity_build(blueprint_houses[irandom(array_length(blueprint_houses) - 1)])),
 		new stc_event(5, new stc_activity_mow(), function(){return first_house_built}),
 		new stc_event(5, new stc_activity_visit(2)),
-		new stc_event(10, new stc_activity_build(blueprint_house)),
+		new stc_event(10, new stc_activity_build(blueprint_houses[irandom(array_length(blueprint_houses) - 1)])),
 		new stc_event(5, new stc_activity_visit(4)),
 		]
 
