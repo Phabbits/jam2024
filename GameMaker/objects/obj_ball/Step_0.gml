@@ -2,6 +2,7 @@ if place_meeting(x, y, obj_pocket){
 	//If you get in the cue ball, subtract a point and take it out
 	if image_index == 0{
 		obj_game_control.balls_pocketed -= 1
+		obj_game_control.num_hits += 1
 		var tries = 100
 		for (var i=0; i<tries; i++){
 			if place_empty(1040 + i*4, 368){
@@ -16,13 +17,20 @@ if place_meeting(x, y, obj_pocket){
 		if obj_game_control.current_type == -1{
 			if image_index >= 1 and image_index <= 7{
 				obj_game_control.current_type = SOLIDS
+				//Set alarm for display
+				obj_game_control.alarm[0] = 150
+				obj_game_control.type_text = "Go for Solids!"
 			}
 			else if image_index >= 9 and image_index <= 15{
 				obj_game_control.current_type = STRIPES
+				//Set alarm for display
+				obj_game_control.alarm[0] = 150
+				obj_game_control.type_text = "Go for Stripes!"
 			}
 			else{
 				//TODO you lose
 			}
+			obj_game_control.balls_pocketed += 1
 		}
 		//Putting in the eight ball ends the game
 		if image_index == 8{
