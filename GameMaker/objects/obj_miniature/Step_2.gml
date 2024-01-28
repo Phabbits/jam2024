@@ -20,3 +20,4 @@ if place_meeting(x, y, obj_ball) {
 if xprevious != x or yprevious != y {
 	image_angle = point_direction(xprevious, yprevious, x, y)
 }
+
