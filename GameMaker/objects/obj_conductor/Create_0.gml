@@ -32,13 +32,20 @@ responded_times = 0
 
 // Add events, timers are in seconds
 storyline = [
-		new stc_event(0.1, new stc_activity_attack(4)),
-		new stc_event(0.1, new stc_activity_build(blueprint_houses[irandom(array_length(blueprint_houses) - 1)])),
-		new stc_event(5, new stc_activity_mow(), function(){return first_house_built}),
+		new stc_event(10, new stc_activity_build(blueprint_houses[irandom(array_length(blueprint_houses) - 1)])),
+		new stc_event(20, new stc_activity_mow(), function(){return first_house_built}),
 		new stc_event(5, new stc_activity_visit(2)),
 		new stc_event(10, new stc_activity_build(blueprint_houses[irandom(array_length(blueprint_houses) - 1)])),
 		new stc_event(5, new stc_activity_visit(4)),
 		]
+
+// Repeat pattern after
+repeat 10 {
+	array_push(storyline, 
+			new stc_event(5, new stc_activity_visit(1)),
+			new stc_event(10, new stc_activity_build(blueprint_houses[irandom(array_length(blueprint_houses) - 1)])),
+			)
+}
 
 // Start the story
 var next_event = storyline[0]
