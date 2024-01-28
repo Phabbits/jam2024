@@ -5,8 +5,8 @@ if selected{
 	contact_x = -1
 	contact_y = -1
 	selected = false
+	obj_game_control.num_hits += 1
 }
-
 
 
 

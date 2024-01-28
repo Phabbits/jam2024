@@ -8,6 +8,7 @@ y += lengthdir_y(speed, direction)
 if place_meeting(x, y, obj_ball) {
 	instance_create_layer(x, y, "Instances", obj_splat)
 	with obj_conductor event_user(0)
+	obj_game_control.people_squashed += 1
 	instance_destroy()
 }
 
