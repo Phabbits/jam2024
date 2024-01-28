@@ -2,7 +2,7 @@
 
 //Create tiles
 
-if x mod GRID_SIZE == 0 and y mod GRID_SIZE == 0 {
+if x mod GRID_SIZE == 0.5 and y mod GRID_SIZE == 0.5 {
 	// Mow
 	var lay_id = layer_get_id("Tiles")
 	var map_id = layer_tilemap_get_id(lay_id)

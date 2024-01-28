@@ -5,7 +5,7 @@ function stc_entrance(_x, _y) constructor {
 
 function get_entrance() {
 	// Identify random entrance
-	var border = TABLE_BORDER + GRID_SIZE
+	var border = TABLE_BORDER + GRID_SIZE + GRID_SIZE/2
 	// Pick a pocket
 	switch irandom(5) {
 		case 0:
