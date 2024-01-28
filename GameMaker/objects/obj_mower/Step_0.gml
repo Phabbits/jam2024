@@ -39,6 +39,6 @@ if (x - GRID_SIZE/2) mod GRID_SIZE == 0 and (y - GRID_SIZE/2) mod GRID_SIZE == 0
 }
 
 //Create grass particles
-part_emitter_region(global.particle_system, global.emit_burst, x - lengthdir_x(4, direction), x - lengthdir_x(1, direction), y + lengthdir_y(3, direction), y + lengthdir_y(5, direction), ps_shape_rectangle, ps_distr_linear) //Set emitter region
+part_emitter_region(global.particle_system_low, global.emit_burst_low, x - lengthdir_x(4, direction), x - lengthdir_x(1, direction), y + lengthdir_y(3, direction), y + lengthdir_y(5, direction), ps_shape_rectangle, ps_distr_linear) //Set emitter region
 part_type_direction(global.p_grass, direction + 220, direction + 280, 0, 0)
-part_emitter_burst(global.particle_system, global.emit_burst, global.p_grass, 25)
+part_emitter_burst(global.particle_system_low, global.emit_burst_low, global.p_grass, 25)
