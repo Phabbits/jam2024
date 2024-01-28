@@ -30,5 +30,5 @@
     "path": "sprites/spr_pocket/spr_pocket.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }

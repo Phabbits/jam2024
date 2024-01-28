@@ -37,5 +37,5 @@
     "path": "sprites/spr_triangle/spr_triangle.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }
