@@ -49,6 +49,7 @@
     {"id":{"name":"spr_responder","path":"sprites/spr_responder/spr_responder.yy",},},
     {"id":{"name":"obj_hole","path":"objects/obj_hole/obj_hole.yy",},},
     {"id":{"name":"obj_mower","path":"objects/obj_mower/obj_mower.yy",},},
+    {"id":{"name":"obj_structure","path":"objects/obj_structure/obj_structure.yy",},},
     {"id":{"name":"scr_activities","path":"scripts/scr_activities/scr_activities.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"spr_assets","path":"sprites/spr_assets/spr_assets.yy",},},
