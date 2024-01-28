@@ -17,7 +17,6 @@
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
     {"name":"Houses","order":15,"path":"folders/Sprites/Houses.yy",},
     {"name":"Vehicles","order":17,"path":"folders/Sprites/Vehicles.yy",},
-
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
