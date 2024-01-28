@@ -7,6 +7,8 @@ else if not first_death_after_house {
 	// Shock all miniatures
 	for (var i=0; i<instance_number(obj_miniature); i++) {
 		var Miniature = instance_find(obj_miniature, i)
+		Miniature.show_speech_shocked = true
+		Miniature.alarm[2] = 120
 	}
 	
 	array_insert(storyline, 0, new stc_event(4, new stc_activity_respond()))
