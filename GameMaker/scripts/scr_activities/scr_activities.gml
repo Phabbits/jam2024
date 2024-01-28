@@ -67,7 +67,7 @@ function stc_activity_visit(_amount=1) : stc_activity() constructor {
 		repeat amount {
 			var entrance = get_entrance(true, true)
 			var _exit_entrance = get_entrance(true, true)
-			instance_create_layer(entrance.x, entrance.y, "Instances", obj_visitor, {
+			instance_create_layer(entrance.x, entrance.y, "Instances", choose(obj_visitor, obj_vehicle_visitor), {
 				exit_entrance : _exit_entrance,
 			})
 		}

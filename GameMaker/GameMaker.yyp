@@ -61,6 +61,7 @@
     {"id":{"name":"scr_activities","path":"scripts/scr_activities/scr_activities.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"obj_vehicle","path":"objects/obj_vehicle/obj_vehicle.yy",},},
+    {"id":{"name":"obj_vehicle_visitor","path":"objects/obj_vehicle_visitor/obj_vehicle_visitor.yy",},},
     {"id":{"name":"spr_assets","path":"sprites/spr_assets/spr_assets.yy",},},
     {"id":{"name":"scr_macros","path":"scripts/scr_macros/scr_macros.yy",},},
     {"id":{"name":"snd_siren","path":"sounds/snd_siren/snd_siren.yy",},},
