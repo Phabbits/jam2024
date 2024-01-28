@@ -25,3 +25,11 @@ function get_entrance() {
 			
 	}
 }
+
+function move_avoiding(target_x, target_y, move_speed) {
+	image_xscale = 2
+	image_yscale = 2
+	mp_potential_step(target_x, target_y, move_speed, false)
+	image_xscale = 1
+	image_yscale = 1
+}

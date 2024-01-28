@@ -2,7 +2,7 @@
 if instance_exists(Target) {
 	if distance_to_object(Target) > range {
 		// Charge
-		mp_potential_step(Target.x, Target.y, walk_speed, false)
+		move_avoiding(Target.x, Target.y, walk_speed)
 	}
 	else {
 		// Stop
@@ -21,7 +21,7 @@ if instance_exists(Target) {
 else {
 	// Return
 	if distance_to_point(xstart, ystart) > 0 {
-		mp_potential_step(xstart, ystart, run_speed, true)
+		move_avoiding(xstart, ystart, run_speed)
 	}
 	else {
 		instance_destroy()
