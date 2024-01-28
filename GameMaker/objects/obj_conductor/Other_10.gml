@@ -8,6 +8,9 @@ else if not first_death_after_house {
 	for (var i=0; i<instance_number(obj_miniature); i++) {
 		var Miniature = instance_find(obj_miniature, i)
 	}
+	
+	array_insert(storyline, 0, new stc_event(4, new stc_activity_respond()))
+	
 	first_death_after_house = true
 }
 else {

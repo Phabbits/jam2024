@@ -18,6 +18,7 @@ responded_times = 0
 
 // Add events, timers are in seconds
 storyline = [
+		new stc_event(0.1, new stc_activity_tank(3)),
 		new stc_event(0.1, new stc_activity_build(blueprint_house)),
 		new stc_event(5, new stc_activity_mow(), function(){return first_house_built}),
 		new stc_event(5, new stc_activity_visit(2)),

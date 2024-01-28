@@ -41,6 +41,16 @@ function stc_activity_attack(_amount=1) : stc_activity() constructor {
 	}
 }
 
+function stc_activity_tank(_amount=1) : stc_activity() constructor {
+	amount =_amount
+	static start = function() {
+		repeat amount {
+			var entrance = get_entrance(true, false)
+			instance_create_layer(entrance.x, entrance.y, "Instances", obj_tank)
+		}
+	}
+}
+
 function stc_activity_visit(_amount=1) : stc_activity() constructor {
 	amount =_amount
 	static start = function() {

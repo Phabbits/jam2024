@@ -10,6 +10,13 @@ if place_meeting(x, y, obj_ball) {
 	// Storyline interrupt
 	with obj_conductor event_user(0)
 	obj_game_control.people_squashed += 1
+	
+	// Add husk
+	with instance_create_layer(x, y, "Instances", obj_husk){
+		sprite_index = other.sprite_index
+		image_index = image_number - 1
+	}
+	
 	instance_destroy()
 }
 

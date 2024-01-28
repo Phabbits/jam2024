@@ -30,13 +30,38 @@ function get_entrance(include_pockets, include_houses) {
 	}
 	
 	// Choose entrances from list of whats possible
-	return possible_entrances[irandom(array_length(possible_entrances) - 1)]
+	// Ensure entrance is not blocked
+	var entrance = possible_entrances[irandom(array_length(possible_entrances) - 1)]
+	var tries = 0
+	var max_tries = 4
+	while collision_rectangle(entrance.x - GRID_SIZE/2, entrance.y - GRID_SIZE/2,
+			entrance.x + GRID_SIZE/2, entrance.y + GRID_SIZE/2, all, false, false) and
+			tries < max_tries {
+		entrance = possible_entrances[irandom(array_length(possible_entrances) - 1)]
+		tries ++
+	}
+	
+	if tries < max_tries {
+		return entrance
+	}
+	else {
+		// Warning! No entrance found
+		return pointer_null
+	}
 }
 
 function move_avoiding(target_x, target_y, move_speed) {
+	// Scale 2x to give wider bearth to obstacles
 	image_xscale = 2
 	image_yscale = 2
+	if not place_free(x, y) {
+		// Use normal size to avoid getting stuck
+		image_xscale = 1
+		image_yscale = 1
+	}
+	// Move avoiding
 	mp_potential_step(target_x, target_y, move_speed, false)
+	// Return to normal size
 	image_xscale = 1
 	image_yscale = 1
 }
