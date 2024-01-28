@@ -35,6 +35,7 @@
     {"name":"spr_assets","order":1,"path":"sprites/spr_assets/spr_assets.yy",},
     {"name":"scr_macros","order":2,"path":"scripts/scr_macros/scr_macros.yy",},
     {"name":"snd_siren","order":3,"path":"sounds/snd_siren/snd_siren.yy",},
+    {"name":"obj_visitor","order":8,"path":"objects/obj_visitor/obj_visitor.yy",},
     {"name":"spr_cue_stick","order":12,"path":"sprites/spr_cue_stick/spr_cue_stick.yy",},
     {"name":"obj_husk","order":12,"path":"objects/obj_husk/obj_husk.yy",},
     {"name":"spr_pocket","order":4,"path":"sprites/spr_pocket/spr_pocket.yy",},
