@@ -1,6 +1,11 @@
 /// @description Fly
 
 // Collide
+with instance_place(x, y, obj_ball){
+	hp -= 10
+	instance_destroy(other)
+}
+
 if not place_free(x, y) {
 	instance_destroy()
 }
