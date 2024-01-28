@@ -1,11 +1,11 @@
 /// @description Perform event
 
 // Start the event
-var event = ds_queue_dequeue(storyline)
+var event = array_shift(storyline)
 event.activity.start()
 
 // Timer for next event
-if not ds_queue_empty(storyline) {
-	var next_event = ds_queue_head(storyline)
+if not array_length(storyline) > 0 {
+	var next_event = storyline[0]
 	alarm[0] = next_event.timer*game_get_speed(gamespeed_fps)
 }

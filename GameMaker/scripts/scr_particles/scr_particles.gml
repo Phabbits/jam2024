@@ -1,5 +1,6 @@
 function setup_particles(){
 	global.particle_system = part_system_create()		//Create the particle system
+	part_system_depth(global.particle_system, -100)
 	global.emit_burst = part_emitter_create(global.particle_system) //Create particle emitter
 	
 	//Cloud particles
