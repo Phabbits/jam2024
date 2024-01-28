@@ -59,6 +59,7 @@
     {"id":{"name":"obj_house_9","path":"objects/obj_house_9/obj_house_9.yy",},},
     {"id":{"name":"obj_structure","path":"objects/obj_structure/obj_structure.yy",},},
     {"id":{"name":"scr_activities","path":"scripts/scr_activities/scr_activities.yy",},},
+    {"id":{"name":"TileSet2","path":"tilesets/TileSet2/TileSet2.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"obj_vehicle","path":"objects/obj_vehicle/obj_vehicle.yy",},},
     {"id":{"name":"spr_assets","path":"sprites/spr_assets/spr_assets.yy",},},
