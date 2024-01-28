@@ -28,11 +28,11 @@ function setup_particles(){
 
 	//Spark particle
 	global.p_spark = part_type_create()				//Create the first particle
-	part_type_shape(global.p_spark, pt_shape_spark)	//Make the particle a square
-	part_type_scale(global.p_spark, 1, 1)			//Set the scale of the particle
+	part_type_shape(global.p_spark, pt_shape_flare)	//Make the particle a flare
+	part_type_scale(global.p_spark, 2, 2)			//Set the scale of the particle
 	part_type_size(global.p_spark, .2, .3, -.01, 0)	//Set the size of the particle
 	part_type_color2(global.p_spark, c_red, c_yellow)//Set the changing color of particle
 	part_type_alpha2(global.p_spark, 1, 1)			//Set the changing alpha of particle
-	part_type_speed(global.p_spark, 1.5, 2, 0, 0)	//Set the random speed of particle
-	part_type_life(global.p_spark, 20, 40)			//How long the particle will last
+	part_type_speed(global.p_spark, .5, 1, 0, 0)	//Set the random speed of particle
+	part_type_life(global.p_spark, 30, 50)			//How long the particle will last
 }
