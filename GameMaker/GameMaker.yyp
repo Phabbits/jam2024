@@ -51,6 +51,7 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"spr_assets","path":"sprites/spr_assets/spr_assets.yy",},},
     {"id":{"name":"scr_macros","path":"scripts/scr_macros/scr_macros.yy",},},
+    {"id":{"name":"obj_husk","path":"objects/obj_husk/obj_husk.yy",},},
     {"id":{"name":"spr_pocket","path":"sprites/spr_pocket/spr_pocket.yy",},},
     {"id":{"name":"spr_ball","path":"sprites/spr_ball/spr_ball.yy",},},
     {"id":{"name":"obj_contractor","path":"objects/obj_contractor/obj_contractor.yy",},},
