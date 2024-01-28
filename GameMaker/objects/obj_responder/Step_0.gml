@@ -13,7 +13,7 @@ if instance_exists(Splat) {
 }
 else {
 	// Return
-	if distance_to_point(xstart, ystart) > 0 {
+	if distance_to_point(xstart, ystart) > sprite_width/2 {
 		move_avoiding(xstart, ystart, run_speed)
 	}
 	else {

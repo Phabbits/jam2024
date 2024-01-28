@@ -1,11 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_responder",
+  "name": "obj_vehicle",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -14,8 +13,8 @@
     "path": "folders/Objects/Miniatures.yy",
   },
   "parentObjectId": {
-    "name": "obj_vehicle",
-    "path": "objects/obj_vehicle/obj_vehicle.yy",
+    "name": "obj_miniature",
+    "path": "objects/obj_miniature/obj_miniature.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -33,8 +32,8 @@
   "properties": [],
   "solid": true,
   "spriteId": {
-    "name": "spr_ambulance",
-    "path": "sprites/spr_ambulance/spr_ambulance.yy",
+    "name": "spr_vehicle",
+    "path": "sprites/spr_vehicle/spr_vehicle.yy",
   },
   "spriteMaskId": null,
   "visible": true,

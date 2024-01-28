@@ -7,7 +7,7 @@ if event.prerequisites() {
 }
 else {
 	// Add event back to front and wait one second
-	event.timer = 1
+	//event.timer = 1
 	array_insert(storyline, 0, event)
 }
 
