@@ -2,7 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_pocket",
-  "bbox_bottom": 63,
+  "bbox_bottom": 31,
   "bbox_left": 0,
   "bbox_right": 63,
   "bbox_top": 0,
@@ -17,7 +17,7 @@
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 64,
+  "height": 32,
   "HTile": false,
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"9d2417aa-2d69-49b6-993f-0d0d758fb9d4","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
