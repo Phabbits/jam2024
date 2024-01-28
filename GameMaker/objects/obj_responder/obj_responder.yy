@@ -1,11 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_conductor",
+  "name": "obj_responder",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -13,7 +12,10 @@
     "name": "Miniatures",
     "path": "folders/Objects/Miniatures.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_miniature",
+    "path": "objects/obj_miniature/obj_miniature.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -29,7 +31,13 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
-  "spriteMaskId": null,
+  "spriteId": {
+    "name": "spr_responder",
+    "path": "sprites/spr_responder/spr_responder.yy",
+  },
+  "spriteMaskId": {
+    "name": "spr_responder",
+    "path": "sprites/spr_responder/spr_responder.yy",
+  },
   "visible": true,
 }
