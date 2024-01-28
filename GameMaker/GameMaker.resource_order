@@ -99,6 +99,7 @@
     {"name":"rm_end","order":2,"path":"rooms/rm_end/rm_end.yy",},
     {"name":"fnt_normal","order":1,"path":"fonts/fnt_normal/fnt_normal.yy",},
     {"name":"obj_game_control","order":6,"path":"objects/obj_game_control/obj_game_control.yy",},
+    {"name":"fnt_names","order":4,"path":"fonts/fnt_names/fnt_names.yy",},
     {"name":"spr_mower","order":2,"path":"sprites/spr_mower/spr_mower.yy",},
     {"name":"obj_house_5","order":6,"path":"objects/obj_house_5/obj_house_5.yy",},
     {"name":"spr_explosion","order":18,"path":"sprites/spr_explosion/spr_explosion.yy",},

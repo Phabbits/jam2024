@@ -124,6 +124,7 @@
     {"id":{"name":"rm_end","path":"rooms/rm_end/rm_end.yy",},},
     {"id":{"name":"fnt_normal","path":"fonts/fnt_normal/fnt_normal.yy",},},
     {"id":{"name":"obj_game_control","path":"objects/obj_game_control/obj_game_control.yy",},},
+    {"id":{"name":"fnt_names","path":"fonts/fnt_names/fnt_names.yy",},},
     {"id":{"name":"snd_engine_start","path":"sounds/snd_engine_start/snd_engine_start.yy",},},
     {"id":{"name":"spr_mower","path":"sprites/spr_mower/spr_mower.yy",},},
     {"id":{"name":"obj_house_5","path":"objects/obj_house_5/obj_house_5.yy",},},
