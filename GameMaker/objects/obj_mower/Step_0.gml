@@ -10,9 +10,12 @@ if (x - GRID_SIZE/2) mod GRID_SIZE == 0 and (y - GRID_SIZE/2) mod GRID_SIZE == 0
 	tilemap_set(map_id, 1, x div GRID_SIZE, y div GRID_SIZE)
 
 	// Check to switch direction
-	if not place_empty(x + lengthdir_x(GRID_SIZE, direction), y + lengthdir_y(GRID_SIZE, direction)) {
+	var tries = 1
+	var max_tries = 4
+	while not place_empty(x + lengthdir_x(GRID_SIZE, direction), y + lengthdir_y(GRID_SIZE, direction)) and tries < max_tries {
 		direction += 90
 		image_angle = direction
+		tries ++
 	}
 }
 
