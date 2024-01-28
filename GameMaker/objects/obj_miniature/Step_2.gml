@@ -6,7 +6,7 @@ y += lengthdir_y(speed, direction)
 
 // Squash
 if place_meeting(x, y, obj_ball) {
-	instance_create_layer(x, y, "lay_flat", obj_splat)
+	instance_create_layer(x, y, "Instances", obj_splat)
 	// Storyline interrupt
 	with obj_conductor event_user(0)
 	obj_game_control.people_squashed += 1
