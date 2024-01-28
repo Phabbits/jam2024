@@ -38,5 +38,5 @@
     "path": "sprites/spr_cushion/spr_cushion.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }
