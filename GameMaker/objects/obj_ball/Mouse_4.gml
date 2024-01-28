@@ -5,5 +5,3 @@ if image_index == 0{
 	contact_y = mouse_y
 }
 
-
-

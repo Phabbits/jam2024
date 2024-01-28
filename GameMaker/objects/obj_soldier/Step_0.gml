@@ -27,5 +27,3 @@ else {
 		instance_destroy()
 	}
 }
-
-image_angle = point_direction(x, y, xprevious, yprevious)
