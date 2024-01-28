@@ -10,8 +10,8 @@
     "path": "folders/Objects.yy",
   },
   "parentObjectId": {
-    "name": "par_static",
-    "path": "objects/par_static/par_static.yy",
+    "name": "obj_cushion",
+    "path": "objects/obj_cushion/obj_cushion.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

@@ -33,6 +33,7 @@ else {
 	
 	// Start down path
 	path_start(path, walk_speed, path_action_stop, false)
+	audio_play_sound(snd_footsteps, 10, false)
 	
 	// Create marker, scale to size of blueprint
 	Marker = instance_create_layer(try_x, try_y, "Instances", obj_marker, {

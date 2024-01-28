@@ -11,6 +11,8 @@ if place_meeting(x, y, obj_ball) {
 	with obj_conductor event_user(0)
 	obj_game_control.people_squashed += 1
 	
+	audio_play_sound(snd_thump, 10, false)
+	
 	instance_destroy()
 }
 
