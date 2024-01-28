@@ -11,4 +11,4 @@
 #macro STRIPES 1
 #macro EIGHT 2
 
-#macro MINI_BUFF 8 //space between house and where miniature spawns
+#macro MINI_BUFF 32
