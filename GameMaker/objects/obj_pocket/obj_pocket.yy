@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_house_8",
-    "path": "sprites/spr_house_8/spr_house_8.yy",
+    "name": "spr_pocket",
+    "path": "sprites/spr_pocket/spr_pocket.yy",
   },
   "spriteMaskId": null,
   "visible": false,
