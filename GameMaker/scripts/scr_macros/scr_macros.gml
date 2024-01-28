@@ -5,3 +5,8 @@
 #macro TABLE_WIDTH 1312
 #macro TABLE_HEIGHT 672
 #macro TABLE_BORDER 96
+
+//Ball Types
+#macro SOLIDS 0
+#macro STRIPES 1
+#macro EIGHT 2
